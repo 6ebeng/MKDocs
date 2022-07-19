@@ -1,0 +1,44 @@
+site_name: Shift Software
+site_description: "Documentation with GitHub and MkDocs"
+site_url: "https://myproject.github.io"
+site_author: "Tishko Rasoul"
+
+copyright: "© All rights reserved - Shift Software"
+
+nav:
+  - Docs: "index.md"
+  - Getting Started: "index.md"
+  - Reference: "index.md"
+  - Methods: "index.md"
+  - Philosophy: "index.md"
+
+repo_name: "6ebeng/MyProject"
+repo_url: "https://github.com/6ebeng/MyProject"
+
+
+theme:  
+        name: material
+        direction: ltr
+        palette:
+          primary: "yellow"
+          accent: "yellow"
+        font:
+          text: Roboto
+          code: Roboto Mono
+        logo:
+            "https://shiftsoftware.github.io/ShiftGrid/assets/images/logo.png"
+        favicon: "https://shiftsoftware.github.io/ShiftGrid/assets/images/logo.png"
+        include_search_page: true
+        search_index_only: true
+
+plugins:
+  - i18n:
+      default_language: en
+      languages:
+        en:
+          name: English
+          build: true
+        de:
+          name: Dutch
+          build: true
+      
