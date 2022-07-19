@@ -1,6 +1,6 @@
 site_name: Shift Software
 site_description: "Documentation with GitHub and MkDocs"
-site_url: "https://myproject.github.io"
+site_url: "https://MKDocs.github.io"
 site_author: "Tishko Rasoul"
 
 copyright: "© All rights reserved - Shift Software"
@@ -13,7 +13,7 @@ nav:
   - Philosophy: "index.md"
 
 repo_name: "6ebeng/MyProject"
-repo_url: "https://github.com/6ebeng/MyProject"
+repo_url: "https://github.com/6ebeng/MKDocs"
 
 
 theme:  
